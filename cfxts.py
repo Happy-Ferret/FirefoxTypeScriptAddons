@@ -66,4 +66,7 @@ def main():
 		read ADDON_SDK_DIR
 		main
 """
+
 main()
+if __name__ == "__main__":
+	main()
