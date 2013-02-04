@@ -45,7 +45,7 @@ def main():
 			+ "cd " + ADDON_SDK_DIR + "\n" \
 			+ "source ./bin/activate\n" \
 			+ "cd " + BUILD_DIR + "\n" \
-			+ "cfx run\ndeactivate\n"
+			+ "cfx run --profiledir ~/.mozilla/firefox/testprof.thqjklhfla\ndeactivate\n"
 
 		with open(SHFILE, "w+") as sh:
 			sh.write(cmd)
